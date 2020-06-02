@@ -49,8 +49,8 @@ public class DynamoDbConfig {
   
    public AWSCredentials amazonAWSCredentialsList() {
 
-	    System.out.println("--accessKey---"+accessKey);
-	    System.out.println("--secretKey---"+secretKey);
+//	    System.out.println("--accessKey---"+accessKey);
+//	    System.out.println("--secretKey---"+secretKey);
 
         return new BasicAWSCredentials(accessKey,secretKey);
     }
